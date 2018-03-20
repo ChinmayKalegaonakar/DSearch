@@ -1,0 +1,22 @@
+<% include ../partials/header %>
+<div class="jumbotron">
+    <div class="container">
+    <div class="pull-left" >
+        <p><%=Docs.name%></p>
+        <p><%=Docs.author%></p>
+        <p><%=Docs.type%></p>
+        <img src="<%=Docs.img%>" class="thumbnail">
+        <p><%=Docs.keywords%></p>
+    </div >
+    
+    <div class="pull-right">
+        <a href="/test/<%=Docs.link%>" download>Download</a>
+        <a href="/<%=Docs._id%>/edit" class="btn btn-xs btn-warning" >Edit</a>
+       <form style="display: inline" class="pull-right" action="/<%=Docs._id%>/delete?_method=DELETE" method="POST">
+                                    <button class="btn btn-xs btn-danger">DELETE</button>
+    </div>
+    
+</div>
+
+</div>
+<% include ../partials/footer %>

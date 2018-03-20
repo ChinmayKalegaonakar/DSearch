@@ -1,0 +1,128 @@
+[
+    {
+    "name":"Dune",
+    "author":"Frank Herbert",
+    "type":"pdf",
+    "img":"https://cdn.waterstones.com/override/v1/large/9780/3409/9780340960196.jpg",
+    "link":"DSearch/assets/files/dune.pdf",
+    "category":"novel",
+    "keywords":["dune","story","scifi","old"]
+},
+{
+    "name":"Computer Organisation",
+    "author":"Aurter robinson",
+    "type":"pdf",
+    "img":"https://images-na.ssl-images-amazon.com/images/I/51aKONCOqaL._SX406_BO1,204,203,200_.jpg",
+    "link":"DSearch/assets/files/sample.pdf",
+    "category":"textbook",
+    "keywords":["Computer","Organisation","College","Book"]
+},
+{
+    "name":"DBMS",
+    "author":"Korth",
+    "type":"pdf",
+    "img":"https://images-na.ssl-images-amazon.com/images/I/51ucipSi0kL._SX366_BO1,204,203,200_.jpg",
+    "link":"DSearch/assets/files/sample2.pdf",
+    "category":"textbook",
+    "keywords":["Database","System","Korth","dbms"]
+},
+{
+    "name":"Getting MEAN",
+    "author":"Cutler Smith",
+    "type":"pdf",
+    "img":"https://images.gr-assets.com/books/1431817647l/25550615.jpg",
+    "link":"DSearch/assets/files/sample2.pdf",
+    "category":"novel",
+    "keywords":["Read","Book","old","scifi"]
+},
+{
+    "name":"Andromeda Strain",
+    "author":"Michael Crichton",
+    "type":"pdf",
+    "img":"https://images.gr-assets.com/books/1388889327l/7670.jpg",
+    "link":"DSearch/assets/files/sample3.pdf",
+    "category":"novel",
+    "keywords":["Alien","Book","old","scifi"]
+},
+{
+    "name":"Computer graphics",
+    "author":"M Pauline baker",
+    "type":"pdf",
+    "img":"https://image.slidesharecdn.com/computergraphics-c-version-100827131453-phpapp01/95/computer-graphics-ebookhearn-baker-1-728.jpg?cb=1282915273",
+    "link":"DSearch/assets/files/sample3.pdf",
+    "category":"textbook",
+    "keywords":["Graphics","Computer","old"]
+},
+{
+    "name":"Operating Systems",
+    "author":"William stallings",
+    "type":"pdf",
+    "img":"https://rukminim1.flixcart.com/image/312/312/book/2/8/3/operating-systems-internals-and-design-principles-original-imadbn5qgfzzya8c.jpeg?q=70",
+    "link":"DSearch/assets/files/dune.pdf",
+    "category":"textbook",
+    "keywords":["Windows","Linux","Frames","Paging"]
+},
+{
+    "name":"Comput Networks",
+    "author":"A ling",
+    "type":"pdf",
+    "img":"https://qph.fs.quoracdn.net/main-qimg-120b9981a5f1ea1c30ba73e407837f27-c",
+    "link":"DSearch/assets/files/sample.pdf",
+    "category":"textbook",
+    "keywords":["Computer","Networking","new"]
+},
+{
+    "name":"Algorithms",
+    "author":"Cormens",
+    "type":"pdf",
+    "img":"https://images-na.ssl-images-amazon.com/images/I/51rPLfOvqxL._SX376_BO1,204,203,200_.jpg",
+    "link":"DSearch/assets/files/sample.pdf",
+    "category":"textbook",
+    "keywords":["Computer","Algorithms","new"]
+},
+{
+    "name":"Paper 1",
+    "author":"Random",
+    "type":"image",
+    "img":"https://meenavyas.files.wordpress.com/2017/09/11.png",
+    "link":"DSearch/assets/files/img1.jpg",
+    "category":"Reasearch",
+    "keywords":["paper","Algorithms","new","Networking"]
+},
+{
+    "name":"MicroServices",
+    "author":"Various",
+    "type":"image",
+    "img":"https://www.heynow.com/savitar/manual130/screenshots/text_window.jpg",
+    "link":"DSearch/assets/files/img2.jpg",
+    "category":"Reasearch",
+    "keywords":["paper","operating","new","Networking"]
+},
+{
+    "name":"SVPDV",
+    "author":"Various",
+    "type":"image",
+    "img":"https://www.econtentpro.com/Content/Images/copy-editing-sample-before-page-2.png",
+    "link":"DSearch/assets/files/img2.jpg",
+    "category":"Reference",
+    "keywords":["reference","new","building"]
+},
+{
+    "name":"NewFoundland",
+    "author":"Erik stalberg",
+    "type":"image",
+    "img":"https://wiki.openoffice.org/w/images/thumb/8/8f/TextDocumentOverview.png/500px-TextDocumentOverview.png",
+    "link":"DSearch/assets/files/hotzero.jpg",
+    "category":"map",
+    "keywords":["reference","new","site","operating"]
+},
+{
+    "name":"Andromeda",
+    "author":"Michael Crichton",
+    "type":"image",
+    "img":"https://www.scanhelp.com/Content/images/articles/deskew/OrignalPage4.JPG",
+    "link":"DSearch/assets/files/allseeingeye.jpg",
+    "category":"image",
+    "keywords":["scifi","new","site","Alien"]
+},
+    ]

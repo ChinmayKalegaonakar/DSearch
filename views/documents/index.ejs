@@ -1,0 +1,57 @@
+<% include ../partials/header %>
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <h2>SEARCH</h2>
+                <div id="custom-search-input">
+                    <div class="input-group col-md-12">
+                        <form action="/result" method="POST">
+                            <input type="text" class="  search-query form-control" name="keyword" placeholder="Search" />
+                            <span class="input-group-btn">
+                                <button class="btn btn-danger" type="button">
+                                    <span class=" glyphicon glyphicon-search"></span>
+                                </button>
+                                <a href="/new">
+                                    <button class="btn btn-warning" type="button">
+                                        <span class=" glyphicon glyphicon-plus"></span>
+                                    </button>
+                                </a>
+                            </span>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="flex-row row">
+
+
+
+            <% Document.forEach(function(docs){ %>
+                <div class="col-xs-6 col-sm-4 col-lg-3">
+                    <div class="col-lg-12">
+                        <img class="img-thumbnail" style="height:300px;width:100%" src="<%=docs.img%>">
+                        <div class="thumbnail">
+                            <div class="caption">
+                                <h3>
+                                    <%=docs.name%>
+                                        </h2>
+                                        <p class="flex-text text-muted">
+                                            <%=docs.author%>
+                                        </p>
+                                        <p>
+                                            <a class="btn btn-primary" href="/<%= docs._id %>">More</a>
+                                            <%=docs.category%>
+                                        </p>
+                                    </div>
+                        </div>
+            
+                    </div>
+                </div>
+
+                <% }); %>
+        </div>
+    </div>
+
+    <% include ../partials/footer %>
