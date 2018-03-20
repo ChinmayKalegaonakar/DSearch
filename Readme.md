@@ -1,7 +1,7 @@
 # Simple CRUD app
 simple CRUD app made with Mongo,Express and Node
 ## Installation
-
+simple everyday node app installation.
 clone the repo:
     git clone https://github.com/ChinmayKalegaonakar/DSearch
 install dependencies:
